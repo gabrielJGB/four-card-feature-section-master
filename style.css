@@ -1,1 +1,74 @@
+*
+{
+  padding:0;
+  margin: 0;
+}
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+    text-align: center;
+}
+
+.box-header{
+    font-size:20px;
+    text-align: center;;
+}
+
+.header-title{
+    text-align: center;
+}
+
+.header-subtitle{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+.karma-box,.calculator-box,.supervisor-box,.team-builder-box{
+box-shadow: .2rem .2rem .6rem #00000033 , 0 0 1rem #00000033;
+border-radius: 0.3rem;
+width: 300px;
+height:100px;
+padding: 40px;
+margin: 30px;
+}
+
+
+
+.box-info{
+    padding: 10px;
+}
+
+.supervisor-box{
+    border-top: solid hsl(181, 40%, 56%);
+}
+
+.team-builder-box{
+    border-top: solid hsl(0, 55%, 43%);
+}
+
+.karma-box{
+    border-top: solid hsl(42, 94%, 79%);
+}
+
+.calculator-box{
+    border-top: solid hsl(208, 42%, 57%);
+}
+
+.boxes img{
+    width: 40px;
+    height: 40px;
+}
+
+.boxes
+{
+  display:flex;
+  justify-content:center;
+}
+.attribution{
+    text-align: center;
+}
