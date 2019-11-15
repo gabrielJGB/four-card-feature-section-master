@@ -19,10 +19,12 @@ body{
 
 .header-title{
     text-align: center;
+    color: rgb(29, 29, 29);
 }
 
 .header-subtitle{
     text-align: center;
+    color: rgb(29, 29, 29);
 }
 
 .description{
