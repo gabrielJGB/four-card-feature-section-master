@@ -136,21 +136,36 @@ padding-top: 10%;
         grid-row: 1 / 3;
         grid-column: auto;
     }
+    .supervisor:hover{
+        box-shadow: .2rem .2rem .6rem #ff000033 , 0 0 1rem #851a1a33;
+    }
+    
 
     .team{
 
         grid-row: 3 / 5;
         grid-column: auto;
     }
+    .team:hover{
+        box-shadow: .2rem .2rem .6rem #0084ff33 , 0 0 1rem #244e8533;
+    }
+    
 
     .karma{
         grid-row: 5 / 7;
         grid-column: auto;
     }
+    .karma:hover{
+        box-shadow: .2rem .2rem .6rem #00ff1533 , 0 0 1rem #1c742033;
+    }
+    
 
     .calculator{
         margin-top:10px;
         grid-row: 7 / 9;
         grid-column: auto;
+    }
+    .calculator:hover{
+        box-shadow: .2rem .2rem .6rem #d0ff0033 , 0 0 1rem #706b1f33;
     }
 }
