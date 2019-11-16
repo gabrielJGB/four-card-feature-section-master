@@ -2,6 +2,8 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
+Live version: https://gabrieljgb.github.io/four-card-feature-section-master/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
