@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Four card feature section</title>
 
 </head>
+
 <body>
 
   <header>
-    <h1 class="header-title">Reliable, efficient delivery<h1>
-    <h2 class="header-subtitle">Powered by Technology<h1>
-  </header> 
+    <h1 class="title">Reliable, efficient delivery<h1>
+    <h2 class="subtitle">Powered by Technology<h2>
+  </header>
 
-<main>
+  <main>
 
-    <p class="description"> Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful</p>
+    <div class="description"> Our artificial Intelligence powered tools use millions of project data points
+      to ensure that your project is successful</div>
 
-  <div class="boxes">
+    <div class="container">
 
-    <div class="supervisor-box">
-      <p class="box-header">Supervisor</p>
-        <p class="box-info">Monitors activity to identify project roadblocks</p>
-      <img src="images/icon-supervisor.svg">
+      <div class="item supervisor">
+        <p class="card-header">Supervisor</p>
+        <p class="card-info">Monitors activity to identify project roadblocks</p>
+        <img src="images/icon-supervisor.svg">
+      </div>
+
+      <div class="item team">
+        <p class="card-header">Team Builder</p>
+        <p class="card-info">Scans our talent network to create the optimal team for your project</p>
+        <img src="images/icon-team-builder.svg">
+      </div>
+
+      <div class="item karma">
+        <p class="card-header">Karma</p>
+        <p class="card-info">Regularly evaluates our talent to ensure quality</p>
+        <img src="images/icon-karma.svg">
+      </div>
+
+      <div class="item calculator">
+        <p class="card-header">Calculator</p>
+        <p class="card-info">Uses data from past projects to provide better delivery estimates</p>
+        <img src="images/icon-calculator.svg">
+      </div>
     </div>
-
-    <div class="team-builder-box">
-        <p class="box-header">Team Builder</p>
-        <p class="box-info">Scans our talent network to create the optimal team for your project</p>
-      <img src="images/icon-team-builder.svg">
-    </div>
-
-    <div class="karma-box">
-        <p class="box-header">Karma</p>
-      <p class="box-info">Regularly evaluates our talent to ensure quality</p>
-     <img src="images/icon-karma.svg">
-    </div>
-
-    <div class="calculator-box">
-        <p class="box-header">Calculator</p>
-        <p class="box-info">Uses data from past projects to provide better delivery estimates</p>
-      <img src="images/icon-calculator.svg">
-    </div>
-  </div>
-</main>
+  </main>
 
   <footer>
     <p class="attribution">
-          Coded by <a href="#">gabrielJGB</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/gabrielJGB">gabrielJGB</a>.
     </p>
-  </footer>  
-  
+  </footer>
 
 </body>
+
 </html>
